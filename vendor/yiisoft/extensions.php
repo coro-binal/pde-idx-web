@@ -21,15 +21,6 @@ return array (
       '@yii/swiftmailer' => $vendorDir . '/yiisoft/yii2-swiftmailer/src',
     ),
   ),
-  'yiisoft/yii2-debug' => 
-  array (
-    'name' => 'yiisoft/yii2-debug',
-    'version' => '2.1.13.0',
-    'alias' => 
-    array (
-      '@yii/debug' => $vendorDir . '/yiisoft/yii2-debug/src',
-    ),
-  ),
   'yiisoft/yii2-gii' => 
   array (
     'name' => 'yiisoft/yii2-gii',
@@ -39,13 +30,31 @@ return array (
       '@yii/gii' => $vendorDir . '/yiisoft/yii2-gii/src',
     ),
   ),
+  'yiisoft/yii2-debug' => 
+  array (
+    'name' => 'yiisoft/yii2-debug',
+    'version' => '2.1.16.0',
+    'alias' => 
+    array (
+      '@yii/debug' => $vendorDir . '/yiisoft/yii2-debug/src',
+    ),
+  ),
   'yiisoft/yii2-faker' => 
   array (
     'name' => 'yiisoft/yii2-faker',
-    'version' => '2.0.4.0',
+    'version' => '2.0.5.0',
     'alias' => 
     array (
-      '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker',
+      '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker/src',
+    ),
+  ),
+  '2amigos/yii2-selectize-widget' => 
+  array (
+    'name' => '2amigos/yii2-selectize-widget',
+    'version' => '1.1.0.0',
+    'alias' => 
+    array (
+      '@dosamigos/selectize' => $vendorDir . '/2amigos/yii2-selectize-widget/src',
     ),
   ),
 );
