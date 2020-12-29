@@ -7,6 +7,7 @@ use Yii;
 /**
  * This is the model class for table "kbli".
  *
+ * @property int $id
  * @property string $kategori
  * @property string $kode
  * @property string $judul
@@ -42,6 +43,7 @@ class Kbli extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
+            'id' => 'ID',
             'kategori' => 'Kategori',
             'kode' => 'Kode',
             'judul' => 'Judul',
