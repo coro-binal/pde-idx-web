@@ -5,6 +5,13 @@ use yii\widgets\DetailView;
 use app\models\Kbli;
 use app\models\Kodepos;
 
+$kodepos = Kodepos::find()->where(['kodepos' => $model->KODEPOS])->one();
+$kodepos_text = $kodepos->kodepos . " - " . $kodepos->kelurahan . " - " .
+                $kodepos->kecamatan . " - " . $kodepos->kabupaten . " - " .
+                $kodepos->provinsi;
+$kbli = Kbli::find()->where(['kode' => $model->KODE_KBLI])->one();
+$kbli_text = $kbli->kategori . " . " . $kbli->kode . " . " . $kbli->judul;
+
 /* @var $this yii\web\View */
 /* @var $model app\models\Perusahaan */
 
@@ -35,14 +42,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'IDX_KODE',
             'ALAMAT',
             //'KODEPOS',
-            [
-              'label'  => 'Kodepos',
-              'value'  => Kodepos::find()->where(['kodepos' => $model->KODEPOS])->one()->kodepos . ' - ' .
-                          Kodepos::find()->where(['kodepos' => $model->KODEPOS])->one()->kelurahan . ' - ' .
-                          Kodepos::find()->where(['kodepos' => $model->KODEPOS])->one()->kecamatan . ' - ' .
-                          Kodepos::find()->where(['kodepos' => $model->KODEPOS])->one()->kabupaten . ' - ' .
-                          Kodepos::find()->where(['kodepos' => $model->KODEPOS])->one()->provinsi,
-            ],
+            [ 'label'  => 'Kodepos', 'value'  => ($kodepos) ? ($kodepos_text) : NULL],
             'EMAIL:email',
             'TELEPON',
             'FAKS',
@@ -52,12 +52,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'USAHA_UTAMA',
             'SEKTOR',
             //'KODE_KBLI',
-            [
-              'label'  => 'Kode KBLI',
-              'value'  => Kbli::find()->where(['kode' => $model->KODE_KBLI])->one()->kategori . ' - ' .
-                          Kbli::find()->where(['kode' => $model->KODE_KBLI])->one()->kode . ' - ' .
-                          Kbli::find()->where(['kode' => $model->KODE_KBLI])->one()->judul,
-            ],
+            [ 'label'  => 'Kode KBLI', 'value'  => ($kbli) ? ($kbli_text) : NULL],
             'TANGGAL_REKAM',
         ],
     ]) ?>
