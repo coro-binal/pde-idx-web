@@ -34,3 +34,5 @@ tests/_support/_generated
 
 config/db.php
 runtime/*
+runtime/debug/index.data
+runtime/logs/app.log
