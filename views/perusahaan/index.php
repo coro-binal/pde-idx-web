@@ -13,47 +13,38 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <h1><?= Html::encode($this->title) ?></h1>
 
-<?php
-if(!Yii::$app->user->isGuest) {
-?>
-    <p>
-        <?= Html::a('Tambah Perusahaan', ['create'], ['class' => 'btn btn-success']) ?>
-    </p>
-<?php
-}
-?>
+    <?php
+    if(!Yii::$app->user->isGuest) {
+    ?>
+         <p>
+            <?= Html::a('Tambah Perusahaan', ['create'], ['class' => 'btn btn-success']) ?>
+         </p>
+    <?php
+    }
+    ?>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            //'ID',
+            'ID',
             'NAMA',
-            //'IDX_KODE',
+            'IDX_KODE',
             'ALAMAT',
+            'KODEPOS',
             //'EMAIL:email',
-            'TELEPON',
+            //'TELEPON',
             //'FAKS',
             //'NPWP',
-            'SITUS',
+            //'SITUS',
             //'TANGGAL_AKTA',
-            'USAHA_UTAMA',
-            'SEKTOR',
+            //'USAHA_UTAMA',
+            //'SEKTOR',
             //'KODE_KBLI',
             //'TANGGAL_REKAM',
 
-            Yii::$app->user->isGuest ? (
-              [
-                'class' => 'yii\grid\ActionColumn',
-                'template' => '{view}',
-              ]
-            ) : (
-              [
-                'class' => 'yii\grid\ActionColumn',
-                'template' => '{view} {update}',
-              ]
-            ),
+            ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
 
