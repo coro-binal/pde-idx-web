@@ -8,7 +8,6 @@ use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use yii\filters\AccessControl;
 
 /**
  * PerusahaanController implements the CRUD actions for Perusahaan model.
@@ -21,17 +20,6 @@ class PerusahaanController extends Controller
     public function behaviors()
     {
         return [
-            'access' => [
-                'class' => AccessControl::className(),
-                'only' => ['update', 'delete', 'create'],
-                'rules' => [
-                  [
-                    'actions' => ['update', 'delete', 'create'],
-                    'allow' => true,
-                    'roles' => ['@'],
-                  ]
-                ]
-            ],
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [

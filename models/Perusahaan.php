@@ -11,6 +11,7 @@ use Yii;
  * @property string $NAMA
  * @property string|null $IDX_KODE
  * @property string $ALAMAT
+ * @property string $KODEPOS
  * @property string|null $EMAIL
  * @property string|null $TELEPON
  * @property string|null $FAKS
@@ -38,15 +39,15 @@ class Perusahaan extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['NAMA', 'ALAMAT'], 'required'],
+            [['NAMA', 'ALAMAT', 'KODEPOS'], 'required'],
             [['TANGGAL_AKTA', 'TANGGAL_REKAM'], 'safe'],
             [['NAMA'], 'string', 'max' => 200],
             [['IDX_KODE'], 'string', 'max' => 4],
             [['ALAMAT', 'USAHA_UTAMA', 'SEKTOR'], 'string', 'max' => 250],
+            [['KODEPOS', 'KODE_KBLI'], 'string', 'max' => 5],
             [['EMAIL', 'TELEPON', 'FAKS'], 'string', 'max' => 50],
             [['NPWP'], 'string', 'max' => 20],
             [['SITUS'], 'string', 'max' => 100],
-            [['KODE_KBLI'], 'string', 'max' => 5],
             [['NAMA'], 'unique'],
         ];
     }
@@ -61,6 +62,7 @@ class Perusahaan extends \yii\db\ActiveRecord
             'NAMA' => 'Nama',
             'IDX_KODE' => 'Idx Kode',
             'ALAMAT' => 'Alamat',
+            'KODEPOS' => 'Kodepos',
             'EMAIL' => 'Email',
             'TELEPON' => 'Telepon',
             'FAKS' => 'Faks',
