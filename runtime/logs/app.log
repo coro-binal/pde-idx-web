@@ -1,0 +1,2245 @@
+2020-12-29 18:41:11 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'kodepos' of non-object in /data/Github/yht/pde-idx-web/views/perusahaan/view.php:40
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/views/perusahaan/view.php(40): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/data/Github/yh...', 40, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('view', Array, Object(app\controllers\PerusahaanController))
+#5 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(56): yii\base\Controller->render('view', Array)
+#6 [internal function]: app\controllers\PerusahaanController->actionView('5')
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('view', Array)
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/view', Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2020-12-29 18:41:11 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9mo8ku8squqfntsgqdrhuo06lt'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51212'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/view?id=5'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/view'
+    'PHP_SELF' => '/index.php/perusahaan/view'
+    'QUERY_STRING' => 'id=5'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9mo8ku8squqfntsgqdrhuo06lt'
+    'REQUEST_TIME_FLOAT' => 1609267271,1555
+    'REQUEST_TIME' => 1609267271
+]
+2020-12-29 18:44:38 [-][-][-][error][yii\console\Exception] yii\console\Exception: Unknown option: --className. Options available: --color, --interactive, --help, --silentExitOnException, --overwrite, --db, --ns, --tableName, --modelClass, --baseClass, --generateRelations, --generateRelationsFromCurrentSchema, --generateLabelsFromComments, --useTablePrefix, --standardizeCapitals, --singularize, --useSchemaName, --generateQuery, --queryNs, --queryClass, --queryBaseClass, --template, --enableI18N, --messageCategory in /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/console/Controller.php:175
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('model', Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('gii/model', Array)
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('gii/model', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 /data/Github/yht/pde-idx-web/yii(20): yii\base\Application->run()
+#5 {main}
+2020-12-29 18:44:38 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'PYENV_SHELL' => 'bash'
+    'XDG_CONFIG_DIRS' => '/etc/xdg'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_MENU_PREFIX' => 'lxde-'
+    'GTK_IM_MODULE' => 'ibus'
+    'QT4_IM_MODULE' => 'ibus'
+    '_LXSESSION_PID' => '5218'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-epd5FETGLqDA/agent.5218'
+    'XDG_DATA_HOME' => '/home/yht/.local/share'
+    'XDG_CONFIG_HOME' => '/home/yht/.config'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'LXDE'
+    'RBENV_SHELL' => 'bash'
+    'SSH_AGENT_PID' => '5267'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'XDG_SEAT' => 'seat0'
+    'PWD' => '/data/Github/yht/pde-idx-web'
+    'XDG_SESSION_DESKTOP' => 'lightdm-xsession'
+    'LOGNAME' => 'yht'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/home/yht/.Xauthority'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm/data/yht'
+    'GDM_LANG' => 'id_ID.utf8'
+    'HOME' => '/home/yht'
+    'LANG' => 'id_ID.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'LXDE'
+    'VTE_VERSION' => '5402'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'CLUTTER_IM_MODULE' => 'ibus'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'USER' => 'yht'
+    'DISPLAY' => ':0.0'
+    'SHLVL' => '1'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => '2'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'PYENV_ROOT' => '/home/yht/.pyenv'
+    'XDG_DATA_DIRS' => '/home/yht/.local/share/flatpak/exports/share'
+    'PATH' => '/home/yht/.local/bin/:/home/yht/Aplikasi/flutter/bin:/home/yht/.pyenv/shims:/home/yht/.pyenv/bin:/home/yht/.rbenv/shims:/home/yht/.rbenv/bin:/home/yht/bin:.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games'
+    'GDMSESSION' => 'lightdm-xsession'
+    'SAL_USE_VCLPLUGIN' => 'gtk'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1609267478,4823
+    'REQUEST_TIME' => 1609267478
+    'argv' => [
+        0 => './yii'
+        1 => 'gii/model'
+        2 => '--tableName=kbli'
+        3 => '--className=Kbli'
+    ]
+    'argc' => 4
+]
+2020-12-29 18:47:41 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][error][ArgumentCountError] ArgumentCountError: Too few arguments to function yii\db\BaseActiveRecord::findOne(), 0 passed in /data/Github/yht/pde-idx-web/views/perusahaan/view.php on line 40 and exactly 1 expected in /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/db/BaseActiveRecord.php:110
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/views/perusahaan/view.php(40): yii\db\BaseActiveRecord::findOne()
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('view', Array, Object(app\controllers\PerusahaanController))
+#5 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(56): yii\base\Controller->render('view', Array)
+#6 [internal function]: app\controllers\PerusahaanController->actionView('5')
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('view', Array)
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/view', Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2020-12-29 18:47:41 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9mo8ku8squqfntsgqdrhuo06lt'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51378'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/view?id=5'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/view'
+    'PHP_SELF' => '/index.php/perusahaan/view'
+    'QUERY_STRING' => 'id=5'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9mo8ku8squqfntsgqdrhuo06lt'
+    'REQUEST_TIME_FLOAT' => 1609267661,5641
+    'REQUEST_TIME' => 1609267661
+]
+2020-12-29 18:48:15 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'kodepos' of non-object in /data/Github/yht/pde-idx-web/views/perusahaan/view.php:40
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/views/perusahaan/view.php(40): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/data/Github/yh...', 40, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('view', Array, Object(app\controllers\PerusahaanController))
+#5 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(56): yii\base\Controller->render('view', Array)
+#6 [internal function]: app\controllers\PerusahaanController->actionView('5')
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('view', Array)
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/view', Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2020-12-29 18:48:15 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9mo8ku8squqfntsgqdrhuo06lt'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51392'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/view?id=5'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/view'
+    'PHP_SELF' => '/index.php/perusahaan/view'
+    'QUERY_STRING' => 'id=5'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9mo8ku8squqfntsgqdrhuo06lt'
+    'REQUEST_TIME_FLOAT' => 1609267695,7014
+    'REQUEST_TIME' => 1609267695
+]
+2020-12-29 18:48:39 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'kelurahan' of non-object in /data/Github/yht/pde-idx-web/views/perusahaan/view.php:41
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/views/perusahaan/view.php(41): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/data/Github/yh...', 41, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('view', Array, Object(app\controllers\PerusahaanController))
+#5 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(56): yii\base\Controller->render('view', Array)
+#6 [internal function]: app\controllers\PerusahaanController->actionView('5')
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('view', Array)
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/view', Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2020-12-29 18:48:39 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9mo8ku8squqfntsgqdrhuo06lt'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51400'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/view?id=5'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/view'
+    'PHP_SELF' => '/index.php/perusahaan/view'
+    'QUERY_STRING' => 'id=5'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9mo8ku8squqfntsgqdrhuo06lt'
+    'REQUEST_TIME_FLOAT' => 1609267719,5342
+    'REQUEST_TIME' => 1609267719
+]
+2020-12-29 18:48:55 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'kategori' of non-object in /data/Github/yht/pde-idx-web/views/perusahaan/view.php:53
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/views/perusahaan/view.php(53): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/data/Github/yh...', 53, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('view', Array, Object(app\controllers\PerusahaanController))
+#5 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(56): yii\base\Controller->render('view', Array)
+#6 [internal function]: app\controllers\PerusahaanController->actionView('5')
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('view', Array)
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/view', Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2020-12-29 18:48:55 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9mo8ku8squqfntsgqdrhuo06lt'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51408'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/view?id=5'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/view'
+    'PHP_SELF' => '/index.php/perusahaan/view'
+    'QUERY_STRING' => 'id=5'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9mo8ku8squqfntsgqdrhuo06lt'
+    'REQUEST_TIME_FLOAT' => 1609267735,8323
+    'REQUEST_TIME' => 1609267735
+]
+2020-12-29 18:55:44 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][error][yii\base\ErrorException:2] yii\base\ErrorException: htmlspecialchars() expects parameter 1 to be string, object given in /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/helpers/BaseHtml.php:111
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'htmlspecialchar...', '/data/Github/yh...', 111, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/helpers/BaseHtml.php(111): htmlspecialchars(Object(app\models\Kodepos), 11, 'UTF-8', true)
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/i18n/Formatter.php(497): yii\helpers\BaseHtml::encode(Object(app\models\Kodepos))
+#3 [internal function]: yii\i18n\Formatter->asText(Object(app\models\Kodepos))
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/i18n/Formatter.php(460): call_user_func_array(Array, Array)
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/DetailView.php(180): yii\i18n\Formatter->format(Object(app\models\Kodepos), 'text')
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/DetailView.php(159): yii\widgets\DetailView->renderAttribute(Array, 3)
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Widget.php(141): yii\widgets\DetailView->run()
+#8 /data/Github/yht/pde-idx-web/views/perusahaan/view.php(60): yii\base\Widget::widget(Array)
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#12 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('view', Array, Object(app\controllers\PerusahaanController))
+#13 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(56): yii\base\Controller->render('view', Array)
+#14 [internal function]: app\controllers\PerusahaanController->actionView('1')
+#15 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#17 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('view', Array)
+#18 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/view', Array)
+#19 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2020-12-29 18:55:44 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9mo8ku8squqfntsgqdrhuo06lt'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51658'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/view?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/view'
+    'PHP_SELF' => '/index.php/perusahaan/view'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9mo8ku8squqfntsgqdrhuo06lt'
+    'REQUEST_TIME_FLOAT' => 1609268144,8805
+    'REQUEST_TIME' => 1609268144
+]
+2020-12-29 18:55:45 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][error][yii\base\ErrorException:2] yii\base\ErrorException: htmlspecialchars() expects parameter 1 to be string, object given in /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/helpers/BaseHtml.php:111
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'htmlspecialchar...', '/data/Github/yh...', 111, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/helpers/BaseHtml.php(111): htmlspecialchars(Object(app\models\Kodepos), 11, 'UTF-8', true)
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/i18n/Formatter.php(497): yii\helpers\BaseHtml::encode(Object(app\models\Kodepos))
+#3 [internal function]: yii\i18n\Formatter->asText(Object(app\models\Kodepos))
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/i18n/Formatter.php(460): call_user_func_array(Array, Array)
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/DetailView.php(180): yii\i18n\Formatter->format(Object(app\models\Kodepos), 'text')
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/DetailView.php(159): yii\widgets\DetailView->renderAttribute(Array, 3)
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Widget.php(141): yii\widgets\DetailView->run()
+#8 /data/Github/yht/pde-idx-web/views/perusahaan/view.php(60): yii\base\Widget::widget(Array)
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#12 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('view', Array, Object(app\controllers\PerusahaanController))
+#13 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(56): yii\base\Controller->render('view', Array)
+#14 [internal function]: app\controllers\PerusahaanController->actionView('1')
+#15 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#17 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('view', Array)
+#18 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/view', Array)
+#19 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2020-12-29 18:55:45 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9mo8ku8squqfntsgqdrhuo06lt'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51662'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/view?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/view'
+    'PHP_SELF' => '/index.php/perusahaan/view'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9mo8ku8squqfntsgqdrhuo06lt'
+    'REQUEST_TIME_FLOAT' => 1609268145,2466
+    'REQUEST_TIME' => 1609268145
+]
+2020-12-29 18:56:20 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'kodepos' of non-object in /data/Github/yht/pde-idx-web/views/perusahaan/view.php:45
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/views/perusahaan/view.php(45): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/data/Github/yh...', 45, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('view', Array, Object(app\controllers\PerusahaanController))
+#5 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(56): yii\base\Controller->render('view', Array)
+#6 [internal function]: app\controllers\PerusahaanController->actionView('2')
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('view', Array)
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/view', Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2020-12-29 18:56:20 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9mo8ku8squqfntsgqdrhuo06lt'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51704'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/view?id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/view'
+    'PHP_SELF' => '/index.php/perusahaan/view'
+    'QUERY_STRING' => 'id=2'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9mo8ku8squqfntsgqdrhuo06lt'
+    'REQUEST_TIME_FLOAT' => 1609268180,819
+    'REQUEST_TIME' => 1609268180
+]
+2020-12-29 18:57:21 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'kodepos' of non-object in /data/Github/yht/pde-idx-web/views/perusahaan/view.php:45
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/views/perusahaan/view.php(45): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/data/Github/yh...', 45, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('view', Array, Object(app\controllers\PerusahaanController))
+#5 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(56): yii\base\Controller->render('view', Array)
+#6 [internal function]: app\controllers\PerusahaanController->actionView('2')
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('view', Array)
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/view', Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2020-12-29 18:57:21 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9mo8ku8squqfntsgqdrhuo06lt'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51716'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/view?id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/view'
+    'PHP_SELF' => '/index.php/perusahaan/view'
+    'QUERY_STRING' => 'id=2'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9mo8ku8squqfntsgqdrhuo06lt'
+    'REQUEST_TIME_FLOAT' => 1609268241,4363
+    'REQUEST_TIME' => 1609268241
+]
+2020-12-29 18:58:37 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'kode' of non-object in /data/Github/yht/pde-idx-web/views/perusahaan/view.php:58
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/views/perusahaan/view.php(58): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/data/Github/yh...', 58, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('view', Array, Object(app\controllers\PerusahaanController))
+#5 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(56): yii\base\Controller->render('view', Array)
+#6 [internal function]: app\controllers\PerusahaanController->actionView('2')
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('view', Array)
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/view', Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2020-12-29 18:58:37 [::1][100][9mo8ku8squqfntsgqdrhuo06lt][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9mo8ku8squqfntsgqdrhuo06lt'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51742'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/view?id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/view'
+    'PHP_SELF' => '/index.php/perusahaan/view'
+    'QUERY_STRING' => 'id=2'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9mo8ku8squqfntsgqdrhuo06lt'
+    'REQUEST_TIME_FLOAT' => 1609268317,2202
+    'REQUEST_TIME' => 1609268317
+]
+2020-12-30 05:24:27 [-][-][-][error][yii\console\Exception] yii\console\Exception: Unknown option: --controllerClass. Options available: --color, --interactive, --help, --silentExitOnException, --overwrite in /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/console/Controller.php:175
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('crud--modelClas...', Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('gii/crud--model...', Array)
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('gii/crud--model...', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 /data/Github/yht/pde-idx-web/yii(20): yii\base\Application->run()
+#5 {main}
+2020-12-30 05:24:27 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'PYENV_SHELL' => 'bash'
+    'XDG_CONFIG_DIRS' => '/etc/xdg'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_MENU_PREFIX' => 'lxde-'
+    'GTK_IM_MODULE' => 'ibus'
+    'QT4_IM_MODULE' => 'ibus'
+    '_LXSESSION_PID' => '5218'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-epd5FETGLqDA/agent.5218'
+    'XDG_DATA_HOME' => '/home/yht/.local/share'
+    'XDG_CONFIG_HOME' => '/home/yht/.config'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'LXDE'
+    'RBENV_SHELL' => 'bash'
+    'SSH_AGENT_PID' => '5267'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'XDG_SEAT' => 'seat0'
+    'PWD' => '/data/Github/yht/pde-idx-web'
+    'XDG_SESSION_DESKTOP' => 'lightdm-xsession'
+    'LOGNAME' => 'yht'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/home/yht/.Xauthority'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm/data/yht'
+    'GDM_LANG' => 'id_ID.utf8'
+    'HOME' => '/home/yht'
+    'LANG' => 'id_ID.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'LXDE'
+    'VTE_VERSION' => '5402'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'CLUTTER_IM_MODULE' => 'ibus'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'USER' => 'yht'
+    'DISPLAY' => ':0.0'
+    'SHLVL' => '1'
+    'QT_IM_MODULE' => 'ibus'
+    'XDG_VTNR' => '7'
+    'XDG_SESSION_ID' => '2'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'PYENV_ROOT' => '/home/yht/.pyenv'
+    'XDG_DATA_DIRS' => '/home/yht/.local/share/flatpak/exports/share'
+    'PATH' => '/home/yht/.local/bin/:/home/yht/Aplikasi/flutter/bin:/home/yht/.pyenv/shims:/home/yht/.pyenv/bin:/home/yht/.rbenv/shims:/home/yht/.rbenv/bin:/home/yht/bin:.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games'
+    'GDMSESSION' => 'lightdm-xsession'
+    'SAL_USE_VCLPLUGIN' => 'gtk'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1609305867,4125
+    'REQUEST_TIME' => 1609305867
+    'argv' => [
+        0 => './yii'
+        1 => 'gii/crud--modelClass=app\\models\\Hubungan'
+        2 => '--controllerClass=app\\controllers\\HubunganController'
+    ]
+    'argc' => 3
+]
+2020-12-30 05:33:06 [::1][100][rptspvfvltn72ge2gjvv6566im][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: perusahaan in /data/Github/yht/pde-idx-web/views/hubungan/_form.php:28
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/views/hubungan/_form.php(28): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/data/Github/yh...', 28, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, NULL)
+#4 /data/Github/yht/pde-idx-web/views/hubungan/create.php(17): yii\base\View->render('_form', Array)
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\HubunganController))
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\HubunganController))
+#9 /data/Github/yht/pde-idx-web/controllers/HubunganController.php(74): yii\base\Controller->render('create', Array)
+#10 [internal function]: app\controllers\HubunganController->actionCreate()
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#13 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('create', Array)
+#14 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('hubungan/create', Array)
+#15 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#17 {main}
+2020-12-30 05:33:06 [::1][100][rptspvfvltn72ge2gjvv6566im][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => 'rptspvfvltn72ge2gjvv6566im'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59922'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/hubungan/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/hubungan/create'
+    'PHP_SELF' => '/index.php/hubungan/create'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/hubungan/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=rptspvfvltn72ge2gjvv6566im'
+    'REQUEST_TIME_FLOAT' => 1609306386,3669
+    'REQUEST_TIME' => 1609306386
+]
+2020-12-30 05:46:03 [::1][100][rptspvfvltn72ge2gjvv6566im][error][ParseError] ParseError: syntax error, unexpected '}', expecting ';' in /data/Github/yht/pde-idx-web/views/hubungan/index.php:29
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\HubunganController))
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('index', Array, Object(app\controllers\HubunganController))
+#3 /data/Github/yht/pde-idx-web/controllers/HubunganController.php(43): yii\base\Controller->render('index', Array)
+#4 [internal function]: app\controllers\HubunganController->actionIndex()
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('hubungan/', Array)
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2020-12-30 05:46:03 [::1][100][rptspvfvltn72ge2gjvv6566im][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => 'rptspvfvltn72ge2gjvv6566im'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60406'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/hubungan/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/hubungan/'
+    'PHP_SELF' => '/index.php/hubungan/'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=rptspvfvltn72ge2gjvv6566im'
+    'REQUEST_TIME_FLOAT' => 1609307163,3694
+    'REQUEST_TIME' => 1609307163
+]
+2020-12-30 05:47:54 [::1][100][rptspvfvltn72ge2gjvv6566im][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'NAMA' of non-object in /data/Github/yht/pde-idx-web/views/hubungan/index.php:34
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/views/hubungan/index.php(34): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/data/Github/yh...', 34, Array)
+#1 [internal function]: yii\base\View->{closure}(Object(app\models\Hubungan), 1, 0, Object(yii\grid\DataColumn))
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/DataColumn.php(231): call_user_func(Object(Closure), Object(app\models\Hubungan), 1, 0, Object(yii\grid\DataColumn))
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/DataColumn.php(245): yii\grid\DataColumn->getDataCellValue(Object(app\models\Hubungan), 1, 0)
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Hubungan), 1, 0)
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(525): yii\grid\Column->renderDataCell(Object(app\models\Hubungan), 1, 0)
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(494): yii\grid\GridView->renderTableRow(Object(app\models\Hubungan), 1, 0)
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(358): yii\grid\GridView->renderTableBody()
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(160): yii\grid\GridView->renderItems()
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#13 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(301): yii\widgets\BaseListView->run()
+#14 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Widget.php(141): yii\grid\GridView->run()
+#15 /data/Github/yht/pde-idx-web/views/hubungan/index.php(21): yii\base\Widget::widget(Array)
+#16 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#17 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#18 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\HubunganController))
+#19 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('index', Array, Object(app\controllers\HubunganController))
+#20 /data/Github/yht/pde-idx-web/controllers/HubunganController.php(43): yii\base\Controller->render('index', Array)
+#21 [internal function]: app\controllers\HubunganController->actionIndex()
+#22 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#23 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#24 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#25 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('hubungan/', Array)
+#26 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#28 {main}
+2020-12-30 05:47:54 [::1][100][rptspvfvltn72ge2gjvv6566im][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => 'rptspvfvltn72ge2gjvv6566im'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60466'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/hubungan/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/hubungan/'
+    'PHP_SELF' => '/index.php/hubungan/'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=rptspvfvltn72ge2gjvv6566im'
+    'REQUEST_TIME_FLOAT' => 1609307274,2538
+    'REQUEST_TIME' => 1609307274
+]
+2020-12-30 05:49:07 [::1][100][rptspvfvltn72ge2gjvv6566im][error][ParseError] ParseError: syntax error, unexpected 'return' (T_RETURN) in /data/Github/yht/pde-idx-web/views/hubungan/index.php:35
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\HubunganController))
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('index', Array, Object(app\controllers\HubunganController))
+#3 /data/Github/yht/pde-idx-web/controllers/HubunganController.php(43): yii\base\Controller->render('index', Array)
+#4 [internal function]: app\controllers\HubunganController->actionIndex()
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('hubungan/', Array)
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2020-12-30 05:49:07 [::1][100][rptspvfvltn72ge2gjvv6566im][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => 'rptspvfvltn72ge2gjvv6566im'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60484'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/hubungan/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/hubungan/'
+    'PHP_SELF' => '/index.php/hubungan/'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=rptspvfvltn72ge2gjvv6566im'
+    'REQUEST_TIME_FLOAT' => 1609307347,4224
+    'REQUEST_TIME' => 1609307347
+]
+2020-12-30 05:49:17 [::1][100][rptspvfvltn72ge2gjvv6566im][error][ParseError] ParseError: syntax error, unexpected 'return' (T_RETURN) in /data/Github/yht/pde-idx-web/views/hubungan/index.php:35
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\HubunganController))
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('index', Array, Object(app\controllers\HubunganController))
+#3 /data/Github/yht/pde-idx-web/controllers/HubunganController.php(43): yii\base\Controller->render('index', Array)
+#4 [internal function]: app\controllers\HubunganController->actionIndex()
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('hubungan/', Array)
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2020-12-30 05:49:17 [::1][100][rptspvfvltn72ge2gjvv6566im][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => 'rptspvfvltn72ge2gjvv6566im'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60492'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/hubungan/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/hubungan/'
+    'PHP_SELF' => '/index.php/hubungan/'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=rptspvfvltn72ge2gjvv6566im'
+    'REQUEST_TIME_FLOAT' => 1609307357,7103
+    'REQUEST_TIME' => 1609307357
+]
+2020-12-30 05:50:01 [::1][100][rptspvfvltn72ge2gjvv6566im][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Hubungan::peusahaan in /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Component.php:155
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/db/BaseActiveRecord.php(298): yii\base\Component->__get('peusahaan')
+#1 /data/Github/yht/pde-idx-web/views/hubungan/index.php(42): yii\db\BaseActiveRecord->__get('peusahaan')
+#2 [internal function]: yii\base\View->{closure}(Object(app\models\Hubungan), 1, 0, Object(yii\grid\DataColumn))
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/DataColumn.php(231): call_user_func(Object(Closure), Object(app\models\Hubungan), 1, 0, Object(yii\grid\DataColumn))
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/DataColumn.php(245): yii\grid\DataColumn->getDataCellValue(Object(app\models\Hubungan), 1, 0)
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Hubungan), 1, 0)
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(525): yii\grid\Column->renderDataCell(Object(app\models\Hubungan), 1, 0)
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(494): yii\grid\GridView->renderTableRow(Object(app\models\Hubungan), 1, 0)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(358): yii\grid\GridView->renderTableBody()
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(160): yii\grid\GridView->renderItems()
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#14 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(301): yii\widgets\BaseListView->run()
+#15 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Widget.php(141): yii\grid\GridView->run()
+#16 /data/Github/yht/pde-idx-web/views/hubungan/index.php(21): yii\base\Widget::widget(Array)
+#17 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#18 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#19 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\HubunganController))
+#20 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('index', Array, Object(app\controllers\HubunganController))
+#21 /data/Github/yht/pde-idx-web/controllers/HubunganController.php(43): yii\base\Controller->render('index', Array)
+#22 [internal function]: app\controllers\HubunganController->actionIndex()
+#23 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#24 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#25 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#26 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('hubungan/', Array)
+#27 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#29 {main}
+2020-12-30 05:50:01 [::1][100][rptspvfvltn72ge2gjvv6566im][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => 'rptspvfvltn72ge2gjvv6566im'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60508'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/hubungan/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/hubungan/'
+    'PHP_SELF' => '/index.php/hubungan/'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=rptspvfvltn72ge2gjvv6566im'
+    'REQUEST_TIME_FLOAT' => 1609307401,5646
+    'REQUEST_TIME' => 1609307401
+]
+2020-12-30 05:55:21 [::1][100][rptspvfvltn72ge2gjvv6566im][error][Error] Error: Class 'GridView' not found in /data/Github/yht/pde-idx-web/views/perusahaan/view.php:63
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('view', Array, Object(app\controllers\PerusahaanController))
+#4 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(56): yii\base\Controller->render('view', Array)
+#5 [internal function]: app\controllers\PerusahaanController->actionView('1')
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('view', Array)
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/view', Array)
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-12-30 05:55:21 [::1][100][rptspvfvltn72ge2gjvv6566im][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => 'rptspvfvltn72ge2gjvv6566im'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60684'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/view?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/view'
+    'PHP_SELF' => '/index.php/perusahaan/view'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=rptspvfvltn72ge2gjvv6566im'
+    'REQUEST_TIME_FLOAT' => 1609307721,5567
+    'REQUEST_TIME' => 1609307721
+]
+2020-12-30 05:55:44 [::1][100][rptspvfvltn72ge2gjvv6566im][error][Error] Error: Call to a member function getCount() on array in /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php:190
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(326): yii\widgets\BaseListView->renderSection('{summary}')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(135): yii\grid\GridView->renderSection('{summary}')
+#3 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(301): yii\widgets\BaseListView->run()
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Widget.php(141): yii\grid\GridView->run()
+#7 /data/Github/yht/pde-idx-web/views/perusahaan/view.php(66): yii\base\Widget::widget(Array)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('view', Array, Object(app\controllers\PerusahaanController))
+#12 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(56): yii\base\Controller->render('view', Array)
+#13 [internal function]: app\controllers\PerusahaanController->actionView('1')
+#14 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#16 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('view', Array)
+#17 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/view', Array)
+#18 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#20 {main}
+2020-12-30 05:55:44 [::1][100][rptspvfvltn72ge2gjvv6566im][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => 'rptspvfvltn72ge2gjvv6566im'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60692'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/view?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/view'
+    'PHP_SELF' => '/index.php/perusahaan/view'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=rptspvfvltn72ge2gjvv6566im'
+    'REQUEST_TIME_FLOAT' => 1609307744,444
+    'REQUEST_TIME' => 1609307744
+]
+2020-12-30 05:58:04 [::1][100][rptspvfvltn72ge2gjvv6566im][error][Error] Error: Class 'Atribut' not found in /data/Github/yht/pde-idx-web/views/perusahaan/view.php:76
+Stack trace:
+#0 [internal function]: yii\base\View->{closure}(Object(app\models\Hubungan), 1, 0, Object(yii\grid\DataColumn))
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/DataColumn.php(231): call_user_func(Object(Closure), Object(app\models\Hubungan), 1, 0, Object(yii\grid\DataColumn))
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/DataColumn.php(245): yii\grid\DataColumn->getDataCellValue(Object(app\models\Hubungan), 1, 0)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Hubungan), 1, 0)
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(525): yii\grid\Column->renderDataCell(Object(app\models\Hubungan), 1, 0)
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(494): yii\grid\GridView->renderTableRow(Object(app\models\Hubungan), 1, 0)
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(358): yii\grid\GridView->renderTableBody()
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(160): yii\grid\GridView->renderItems()
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#10 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#12 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(301): yii\widgets\BaseListView->run()
+#13 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Widget.php(141): yii\grid\GridView->run()
+#14 /data/Github/yht/pde-idx-web/views/perusahaan/view.php(95): yii\base\Widget::widget(Array)
+#15 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#16 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#17 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#18 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('view', Array, Object(app\controllers\PerusahaanController))
+#19 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(56): yii\base\Controller->render('view', Array)
+#20 [internal function]: app\controllers\PerusahaanController->actionView('1')
+#21 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#22 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#23 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('view', Array)
+#24 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/view', Array)
+#25 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#27 {main}
+2020-12-30 05:58:04 [::1][100][rptspvfvltn72ge2gjvv6566im][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => 'rptspvfvltn72ge2gjvv6566im'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60724'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/view?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/view'
+    'PHP_SELF' => '/index.php/perusahaan/view'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=rptspvfvltn72ge2gjvv6566im'
+    'REQUEST_TIME_FLOAT' => 1609307884,6195
+    'REQUEST_TIME' => 1609307884
+]
+2020-12-30 05:58:38 [::1][100][rptspvfvltn72ge2gjvv6566im][error][Error] Error: Class 'Perusahaan' not found in /data/Github/yht/pde-idx-web/views/perusahaan/view.php:91
+Stack trace:
+#0 [internal function]: yii\base\View->{closure}(Object(app\models\Hubungan), 1, 0, Object(yii\grid\DataColumn))
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/DataColumn.php(231): call_user_func(Object(Closure), Object(app\models\Hubungan), 1, 0, Object(yii\grid\DataColumn))
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/DataColumn.php(245): yii\grid\DataColumn->getDataCellValue(Object(app\models\Hubungan), 1, 0)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Hubungan), 1, 0)
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(525): yii\grid\Column->renderDataCell(Object(app\models\Hubungan), 1, 0)
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(494): yii\grid\GridView->renderTableRow(Object(app\models\Hubungan), 1, 0)
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(358): yii\grid\GridView->renderTableBody()
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(160): yii\grid\GridView->renderItems()
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#10 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#12 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(301): yii\widgets\BaseListView->run()
+#13 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Widget.php(141): yii\grid\GridView->run()
+#14 /data/Github/yht/pde-idx-web/views/perusahaan/view.php(96): yii\base\Widget::widget(Array)
+#15 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#16 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#17 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#18 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('view', Array, Object(app\controllers\PerusahaanController))
+#19 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(56): yii\base\Controller->render('view', Array)
+#20 [internal function]: app\controllers\PerusahaanController->actionView('1')
+#21 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#22 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#23 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('view', Array)
+#24 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/view', Array)
+#25 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#27 {main}
+2020-12-30 05:58:38 [::1][100][rptspvfvltn72ge2gjvv6566im][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => 'rptspvfvltn72ge2gjvv6566im'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60736'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/view?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/view'
+    'PHP_SELF' => '/index.php/perusahaan/view'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=rptspvfvltn72ge2gjvv6566im'
+    'REQUEST_TIME_FLOAT' => 1609307918,6886
+    'REQUEST_TIME' => 1609307918
+]
+2020-12-30 06:00:01 [::1][100][rptspvfvltn72ge2gjvv6566im][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'kodepos' of non-object in /data/Github/yht/pde-idx-web/views/perusahaan/view.php:14
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/views/perusahaan/view.php(14): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/data/Github/yh...', 14, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('view', Array, Object(app\controllers\PerusahaanController))
+#5 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(56): yii\base\Controller->render('view', Array)
+#6 [internal function]: app\controllers\PerusahaanController->actionView('19')
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('view', Array)
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/view', Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2020-12-30 06:00:01 [::1][100][rptspvfvltn72ge2gjvv6566im][info][application] $_GET = [
+    'id' => '19'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => 'rptspvfvltn72ge2gjvv6566im'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60824'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/view?id=19'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/view'
+    'PHP_SELF' => '/index.php/perusahaan/view'
+    'QUERY_STRING' => 'id=19'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=rptspvfvltn72ge2gjvv6566im'
+    'REQUEST_TIME_FLOAT' => 1609308001,7215
+    'REQUEST_TIME' => 1609308001
+]
+2020-12-30 06:01:54 [::1][100][rptspvfvltn72ge2gjvv6566im][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'kategori' of non-object in /data/Github/yht/pde-idx-web/views/perusahaan/view.php:18
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/views/perusahaan/view.php(18): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/data/Github/yh...', 18, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('view', Array, Object(app\controllers\PerusahaanController))
+#5 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(56): yii\base\Controller->render('view', Array)
+#6 [internal function]: app\controllers\PerusahaanController->actionView('19')
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('view', Array)
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/view', Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2020-12-30 06:01:54 [::1][100][rptspvfvltn72ge2gjvv6566im][info][application] $_GET = [
+    'id' => '19'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => 'rptspvfvltn72ge2gjvv6566im'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60846'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/view?id=19'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/view'
+    'PHP_SELF' => '/index.php/perusahaan/view'
+    'QUERY_STRING' => 'id=19'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=rptspvfvltn72ge2gjvv6566im'
+    'REQUEST_TIME_FLOAT' => 1609308114,2504
+    'REQUEST_TIME' => 1609308114
+]
+2020-12-30 06:29:21 [::1][100][rptspvfvltn72ge2gjvv6566im][error][yii\base\ErrorException:2] yii\base\ErrorException: Invalid argument supplied for foreach() in /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/helpers/BaseHtml.php:1895
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/helpers/BaseHtml.php(1895): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', '/data/Github/yh...', 1895, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/helpers/BaseHtml.php(838): yii\helpers\BaseHtml::renderSelectOptions(NULL, '1', '<span class="st...')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/helpers/BaseHtml.php(1844): yii\helpers\BaseHtml::dropDownList('Hubungan[perusa...', NULL, '1', '<span class="st...')
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/helpers/BaseHtml.php(1674): yii\helpers\BaseHtml::activeListInput('dropDownList', Object(app\models\Hubungan), 'perusahaan', '1', Array)
+#4 /data/Github/yht/pde-idx-web/vendor/2amigos/yii2-selectize-widget/src/SelectizeDropDownList.php(30): yii\helpers\BaseHtml::activeDropDownList(Object(app\models\Hubungan), 'perusahaan', '1', Array)
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Widget.php(141): dosamigos\selectize\SelectizeDropDownList->run()
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/ActiveField.php(795): yii\base\Widget::widget(Array)
+#7 /data/Github/yht/pde-idx-web/views/hubungan/_form.php(28): yii\widgets\ActiveField->widget('dosamigos\\selec...', Array)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, NULL)
+#11 /data/Github/yht/pde-idx-web/views/hubungan/create.php(19): yii\base\View->render('_form', Array)
+#12 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#13 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#14 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\HubunganController))
+#15 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\HubunganController))
+#16 /data/Github/yht/pde-idx-web/controllers/HubunganController.php(74): yii\base\Controller->render('create', Array)
+#17 [internal function]: app\controllers\HubunganController->actionCreate()
+#18 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#19 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#20 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('create', Array)
+#21 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('hubungan/create', Array)
+#22 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#24 {main}
+2020-12-30 06:29:21 [::1][100][rptspvfvltn72ge2gjvv6566im][info][application] $_GET = [
+    'perusahaan' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => 'rptspvfvltn72ge2gjvv6566im'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '33198'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/hubungan/create?perusahaan=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/hubungan/create'
+    'PHP_SELF' => '/index.php/hubungan/create'
+    'QUERY_STRING' => 'perusahaan=1'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan/view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=rptspvfvltn72ge2gjvv6566im'
+    'REQUEST_TIME_FLOAT' => 1609309761,4443
+    'REQUEST_TIME' => 1609309761
+]
+2020-12-30 07:12:57 [::1][100][9jc0drud4rsu521alp3r07pp8b][error][yii\base\ErrorException:2] yii\base\ErrorException: A non-numeric value encountered in /data/Github/yht/pde-idx-web/views/perusahaan/create.php:8
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/views/perusahaan/create.php(8): yii\base\ErrorHandler->handleError(2, 'A non-numeric v...', '/data/Github/yh...', 8, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('create', Array, Object(app\controllers\PerusahaanController))
+#5 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(74): yii\base\Controller->render('create', Array)
+#6 [internal function]: app\controllers\PerusahaanController->actionCreate()
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('create', Array)
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/crea...', Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2020-12-30 07:12:57 [::1][100][9jc0drud4rsu521alp3r07pp8b][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9jc0drud4rsu521alp3r07pp8b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '34204'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/create'
+    'PHP_SELF' => '/index.php/perusahaan/create'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9jc0drud4rsu521alp3r07pp8b'
+    'REQUEST_TIME_FLOAT' => 1609312377,2677
+    'REQUEST_TIME' => 1609312377
+]
+2020-12-30 07:13:39 [::1][100][9jc0drud4rsu521alp3r07pp8b][error][Error] Error: Class 'Individu' not found in /data/Github/yht/pde-idx-web/views/perusahaan/view.php:84
+Stack trace:
+#0 [internal function]: yii\base\View->{closure}(Object(app\models\Hubungan), 3, 0, Object(yii\grid\DataColumn))
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/DataColumn.php(231): call_user_func(Object(Closure), Object(app\models\Hubungan), 3, 0, Object(yii\grid\DataColumn))
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/DataColumn.php(245): yii\grid\DataColumn->getDataCellValue(Object(app\models\Hubungan), 3, 0)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Hubungan), 3, 0)
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(525): yii\grid\Column->renderDataCell(Object(app\models\Hubungan), 3, 0)
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(494): yii\grid\GridView->renderTableRow(Object(app\models\Hubungan), 3, 0)
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(358): yii\grid\GridView->renderTableBody()
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(160): yii\grid\GridView->renderItems()
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#9 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#10 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/widgets/BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#12 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/grid/GridView.php(301): yii\widgets\BaseListView->run()
+#13 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Widget.php(141): yii\grid\GridView->run()
+#14 /data/Github/yht/pde-idx-web/views/perusahaan/view.php(90): yii\base\Widget::widget(Array)
+#15 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#16 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#17 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\PerusahaanController))
+#18 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('view', Array, Object(app\controllers\PerusahaanController))
+#19 /data/Github/yht/pde-idx-web/controllers/PerusahaanController.php(56): yii\base\Controller->render('view', Array)
+#20 [internal function]: app\controllers\PerusahaanController->actionView('13')
+#21 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#22 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#23 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('view', Array)
+#24 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('perusahaan/view', Array)
+#25 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#27 {main}
+2020-12-30 07:13:38 [::1][100][9jc0drud4rsu521alp3r07pp8b][info][application] $_GET = [
+    'id' => '13'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9jc0drud4rsu521alp3r07pp8b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '34270'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/perusahaan/view?id=13'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/perusahaan/view'
+    'PHP_SELF' => '/index.php/perusahaan/view'
+    'QUERY_STRING' => 'id=13'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/perusahaan'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9jc0drud4rsu521alp3r07pp8b'
+    'REQUEST_TIME_FLOAT' => 1609312418,9823
+    'REQUEST_TIME' => 1609312418
+]
+2020-12-30 07:57:05 [::1][100][9jc0drud4rsu521alp3r07pp8b][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: perusahaan in /data/Github/yht/pde-idx-web/views/hubungan/_form.php:12
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/views/hubungan/_form.php(12): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/data/Github/yh...', 12, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, NULL)
+#4 /data/Github/yht/pde-idx-web/views/hubungan/update.php(18): yii\base\View->render('_form', Array)
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\HubunganController))
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('update', Array, Object(app\controllers\HubunganController))
+#9 /data/Github/yht/pde-idx-web/controllers/HubunganController.php(94): yii\base\Controller->render('update', Array)
+#10 [internal function]: app\controllers\HubunganController->actionUpdate('4')
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#13 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('update', Array)
+#14 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('hubungan/update', Array)
+#15 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#17 {main}
+2020-12-30 07:57:05 [::1][100][9jc0drud4rsu521alp3r07pp8b][info][application] $_GET = [
+    'id' => '4'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9jc0drud4rsu521alp3r07pp8b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '35132'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/hubungan/update?id=4'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/hubungan/update'
+    'PHP_SELF' => '/index.php/hubungan/update'
+    'QUERY_STRING' => 'id=4'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/hubungan/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9jc0drud4rsu521alp3r07pp8b'
+    'REQUEST_TIME_FLOAT' => 1609315025,1034
+    'REQUEST_TIME' => 1609315025
+]
+2020-12-30 07:58:06 [::1][100][9jc0drud4rsu521alp3r07pp8b][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: perusahaan in /data/Github/yht/pde-idx-web/views/hubungan/_form.php:12
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/views/hubungan/_form.php(12): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/data/Github/yh...', 12, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, NULL)
+#4 /data/Github/yht/pde-idx-web/views/hubungan/update.php(18): yii\base\View->render('_form', Array)
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\HubunganController))
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('update', Array, Object(app\controllers\HubunganController))
+#9 /data/Github/yht/pde-idx-web/controllers/HubunganController.php(94): yii\base\Controller->render('update', Array)
+#10 [internal function]: app\controllers\HubunganController->actionUpdate('4')
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#13 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('update', Array)
+#14 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('hubungan/update', Array)
+#15 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#17 {main}
+2020-12-30 07:58:06 [::1][100][9jc0drud4rsu521alp3r07pp8b][info][application] $_GET = [
+    'id' => '4'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9jc0drud4rsu521alp3r07pp8b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '35160'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/hubungan/update?id=4'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/hubungan/update'
+    'PHP_SELF' => '/index.php/hubungan/update'
+    'QUERY_STRING' => 'id=4'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/hubungan/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9jc0drud4rsu521alp3r07pp8b'
+    'REQUEST_TIME_FLOAT' => 1609315086,0375
+    'REQUEST_TIME' => 1609315086
+]
+2020-12-30 07:58:47 [::1][100][9jc0drud4rsu521alp3r07pp8b][error][Error] Error: Call to undefined function is_exist() in /data/Github/yht/pde-idx-web/views/hubungan/_form.php:12
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, NULL)
+#3 /data/Github/yht/pde-idx-web/views/hubungan/update.php(18): yii\base\View->render('_form', Array)
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\HubunganController))
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('update', Array, Object(app\controllers\HubunganController))
+#8 /data/Github/yht/pde-idx-web/controllers/HubunganController.php(94): yii\base\Controller->render('update', Array)
+#9 [internal function]: app\controllers\HubunganController->actionUpdate('4')
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#12 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('update', Array)
+#13 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('hubungan/update', Array)
+#14 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#16 {main}
+2020-12-30 07:58:47 [::1][100][9jc0drud4rsu521alp3r07pp8b][info][application] $_GET = [
+    'id' => '4'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9jc0drud4rsu521alp3r07pp8b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '35176'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/hubungan/update?id=4'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/hubungan/update'
+    'PHP_SELF' => '/index.php/hubungan/update'
+    'QUERY_STRING' => 'id=4'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/hubungan/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9jc0drud4rsu521alp3r07pp8b'
+    'REQUEST_TIME_FLOAT' => 1609315127,0822
+    'REQUEST_TIME' => 1609315127
+]
+2020-12-30 07:58:55 [::1][100][9jc0drud4rsu521alp3r07pp8b][error][Error] Error: Call to undefined function is_exists() in /data/Github/yht/pde-idx-web/views/hubungan/_form.php:12
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, NULL)
+#3 /data/Github/yht/pde-idx-web/views/hubungan/update.php(18): yii\base\View->render('_form', Array)
+#4 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\HubunganController))
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('update', Array, Object(app\controllers\HubunganController))
+#8 /data/Github/yht/pde-idx-web/controllers/HubunganController.php(94): yii\base\Controller->render('update', Array)
+#9 [internal function]: app\controllers\HubunganController->actionUpdate('4')
+#10 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#12 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('update', Array)
+#13 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('hubungan/update', Array)
+#14 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#16 {main}
+2020-12-30 07:58:55 [::1][100][9jc0drud4rsu521alp3r07pp8b][info][application] $_GET = [
+    'id' => '4'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9jc0drud4rsu521alp3r07pp8b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '35182'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/hubungan/update?id=4'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/hubungan/update'
+    'PHP_SELF' => '/index.php/hubungan/update'
+    'QUERY_STRING' => 'id=4'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/hubungan/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9jc0drud4rsu521alp3r07pp8b'
+    'REQUEST_TIME_FLOAT' => 1609315135,3979
+    'REQUEST_TIME' => 1609315135
+]
+2020-12-30 07:59:03 [::1][100][9jc0drud4rsu521alp3r07pp8b][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: perusahaan in /data/Github/yht/pde-idx-web/views/hubungan/_form.php:12
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/views/hubungan/_form.php(12): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/data/Github/yh...', 12, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, NULL)
+#4 /data/Github/yht/pde-idx-web/views/hubungan/update.php(18): yii\base\View->render('_form', Array)
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\HubunganController))
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('update', Array, Object(app\controllers\HubunganController))
+#9 /data/Github/yht/pde-idx-web/controllers/HubunganController.php(94): yii\base\Controller->render('update', Array)
+#10 [internal function]: app\controllers\HubunganController->actionUpdate('4')
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#13 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('update', Array)
+#14 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('hubungan/update', Array)
+#15 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#17 {main}
+2020-12-30 07:59:03 [::1][100][9jc0drud4rsu521alp3r07pp8b][info][application] $_GET = [
+    'id' => '4'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9jc0drud4rsu521alp3r07pp8b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '35190'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/hubungan/update?id=4'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/hubungan/update'
+    'PHP_SELF' => '/index.php/hubungan/update'
+    'QUERY_STRING' => 'id=4'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/hubungan/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9jc0drud4rsu521alp3r07pp8b'
+    'REQUEST_TIME_FLOAT' => 1609315143,5153
+    'REQUEST_TIME' => 1609315143
+]
+2020-12-30 07:59:44 [::1][100][9jc0drud4rsu521alp3r07pp8b][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: perusahaan in /data/Github/yht/pde-idx-web/views/hubungan/_form.php:14
+Stack trace:
+#0 /data/Github/yht/pde-idx-web/views/hubungan/_form.php(14): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/data/Github/yh...', 14, Array)
+#1 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#2 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#3 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, NULL)
+#4 /data/Github/yht/pde-idx-web/views/hubungan/update.php(18): yii\base\View->render('_form', Array)
+#5 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(348): require('/data/Github/yh...')
+#6 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/data/Github/yh...', Array)
+#7 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/data/Github/yh...', Array, Object(app\controllers\HubunganController))
+#8 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render('update', Array, Object(app\controllers\HubunganController))
+#9 /data/Github/yht/pde-idx-web/controllers/HubunganController.php(94): yii\base\Controller->render('update', Array)
+#10 [internal function]: app\controllers\HubunganController->actionUpdate('4')
+#11 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#13 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('update', Array)
+#14 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('hubungan/update', Array)
+#15 /data/Github/yht/pde-idx-web/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /data/Github/yht/pde-idx-web/web/index.php(12): yii\base\Application->run()
+#17 {main}
+2020-12-30 07:59:44 [::1][100][9jc0drud4rsu521alp3r07pp8b][info][application] $_GET = [
+    'id' => '4'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wknQNsfk421f3FfQooc6mztv1ak2lPDl\";}'
+    'PHPSESSID' => '9jc0drud4rsu521alp3r07pp8b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/data/Github/yht/pde-idx-web/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '35236'
+    'SERVER_SOFTWARE' => 'PHP 7.3.19-1~deb10u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8081'
+    'REQUEST_URI' => '/hubungan/update?id=4'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/data/Github/yht/pde-idx-web/web/index.php'
+    'PATH_INFO' => '/hubungan/update'
+    'PHP_SELF' => '/index.php/hubungan/update'
+    'QUERY_STRING' => 'id=4'
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3401.0 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8081/hubungan/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_identity=7c42cf8842fb64c9bade14a6a3f615b33f3a99c006d14ecd5f79604109f4ffe5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=926eff99cc3cc0677dba7d2e1f68092a17b048ad74519099a778118c032b5f60a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wknQNsfk421f3FfQooc6mztv1ak2lPDl%22%3B%7D; PHPSESSID=9jc0drud4rsu521alp3r07pp8b'
+    'REQUEST_TIME_FLOAT' => 1609315184,4086
+    'REQUEST_TIME' => 1609315184
+]
